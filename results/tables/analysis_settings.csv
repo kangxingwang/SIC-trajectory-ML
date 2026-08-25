@@ -1,0 +1,13 @@
+﻿Setting,Value
+Seed,19971117
+Outer folds,10
+Inner folds,10
+Tuning grid size,12
+Boruta max runs,100
+Bootstrap replicates,1000
+SHAP simulations,64
+SHAP sample per cohort,300
+Workers,4
+Fast test,FALSE
+Locked model,XGBoost
+Final features,Plt_S; INR_S; SOFA_S; MAP; Na; SOFA; TBil; Cre; Temperature; GI_Infection

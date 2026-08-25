@@ -1,0 +1,4 @@
+﻿Case_ID,Type,Observed,Probability,Threshold
+Representative_TP,TP,Class2,0.685433328151703,0.346567139029503
+Representative_FP,FP,Other,0.552449941635132,0.346567139029503
+Representative_FN,FN,Class2,0.224733993411064,0.346567139029503

@@ -1,0 +1,35 @@
+﻿Feature,Clinical_Name,Domain,Boruta_Frequency,LASSO_Frequency,Intersection_Frequency,Forced,Final_Model,Decision
+INR_S,SIC coagulation component,SIC component,1,1,1,TRUE,TRUE,Prespecified and forced
+MAP,MAP,Vital signs,1,1,1,FALSE,TRUE,Stable intersection (>=70%)
+Na,Sodium,Laboratory,1,1,1,FALSE,TRUE,Stable intersection (>=70%)
+Plt_S,SIC platelet component,SIC component,1,1,1,TRUE,TRUE,Prespecified and forced
+SOFA,SOFA,Severity,1,1,1,FALSE,TRUE,Stable intersection (>=70%)
+SOFA_S,SIC SOFA component,SIC component,1,1,1,TRUE,TRUE,Prespecified and forced
+TBil,Total bilirubin,Laboratory,1,1,1,FALSE,TRUE,Stable intersection (>=70%)
+Cre,Creatinine,Laboratory,1,0.9,0.9,FALSE,TRUE,Stable intersection (>=70%)
+Temperature,Temperature,Vital signs,1,0.7,0.7,FALSE,TRUE,Stable intersection (>=70%)
+GI_Infection,GI infection,Infection site,0.9,0.7,0.7,FALSE,TRUE,Stable intersection (>=70%)
+ICU_Type,ICU type,ICU context,1,0.6,0.6,FALSE,FALSE,Not retained
+OASIS,OASIS,Severity,1,0.4,0.4,FALSE,FALSE,Not retained
+Cl,Chloride,Laboratory,1,0.3,0.3,FALSE,FALSE,Not retained
+Resp_Rate,Respiratory rate,Vital signs,1,0.2,0.2,FALSE,FALSE,Not retained
+Heart_Rate,Heart rate,Vital signs,1,0.1,0.1,FALSE,FALSE,Not retained
+Lung_Infection,Lung infection,Infection site,0.2,0.3,0.1,FALSE,FALSE,Not retained
+Hypertension,Hypertension,Comorbidity,0.1,0.1,0.1,FALSE,FALSE,Not retained
+AST,AST,Laboratory,1,0,0,FALSE,FALSE,Not retained
+Age,Age,Demographics,1,0,0,FALSE,FALSE,Not retained
+Ca,Calcium,Laboratory,1,0,0,FALSE,FALSE,Not retained
+Charlson,Charlson,Comorbidity,1,0,0,FALSE,FALSE,Not retained
+HF,Heart failure,Comorbidity,1,0,0,FALSE,FALSE,Not retained
+K,Potassium,Laboratory,1,0,0,FALSE,FALSE,Not retained
+Plt,Platelet count,Laboratory,1,0,0,FALSE,FALSE,Not retained
+WBC,WBC,Laboratory,1,0,0,FALSE,FALSE,Not retained
+Other_Infection,Other infection,Infection site,0.7,0,0,FALSE,FALSE,Not retained
+Malignancy,Malignancy,Comorbidity,0.1,0,0,FALSE,FALSE,Not retained
+Gender,Gender,Demographics,0,0.7,0,FALSE,FALSE,Not retained
+COPD,COPD,Comorbidity,0,0,0,FALSE,FALSE,Not retained
+Diabetes,Diabetes,Comorbidity,0,0,0,FALSE,FALSE,Not retained
+GU_Infection,GU infection,Infection site,0,0,0,FALSE,FALSE,Not retained
+Hb,Hemoglobin,Laboratory,0,0,0,FALSE,FALSE,Not retained
+Race,Race,Demographics,0,0,0,FALSE,FALSE,Not retained
+Stroke,Stroke,Comorbidity,0,0,0,FALSE,FALSE,Not retained

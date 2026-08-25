@@ -1,0 +1,6 @@
+﻿Model,penalty,mixture,.config,mtry,min_n,trees,tree_depth,learn_rate,loss_reduction,sample_size,cost,rbf_sigma,neighbors,weight_func,dist_power
+ElasticNet,6.57933224657568e-09,0.913636363636364,Preprocessor1_Model11,,,,,,,,,,,"",
+RandomForest,,,Preprocessor1_Model03,3,36,,,,,,,,,"",
+XGBoost,,,Preprocessor1_Model02,2,36,1818,6,0.00811130830789687,1.23284673944207e-08,0.590909090909091,,,,"",
+SVM_RBF,,,Preprocessor1_Model11,,,,,,,,12.4352502541673,0.0151991108295293,,"",
+KNN,,,Preprocessor1_Model08,,,,,,,,,,12,rectangular,0.272727272727273

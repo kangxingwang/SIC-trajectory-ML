@@ -1,0 +1,24 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+renv/library/
+renv/staging/
+
+# Restricted source data and patient-level intermediate outputs
+data/raw/
+data/private/
+private/
+results/private/
+results/logs/*.log
+results/logs/workbook_previews/
+results/workbooks/*.inspect.ndjson
+*.rds
+*.RData
+node_modules/
+
+# Temporary files
+*.tmp
+*.bak
+~$*

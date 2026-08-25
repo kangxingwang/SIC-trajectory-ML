@@ -1,0 +1,22 @@
+List of 14
+ $ project_root: chr "."
+ $ data_files  : Named chr [1:4] "MIMIC-IV.csv" "MIMIC-III.csv" "eICU.csv" "NWICU.csv"
+  ..- attr(*, "names")= chr [1:4] "MIMIC-IV" "MIMIC-III" "eICU" "NWICU"
+ $ seed        : int 19971117
+ $ outer_v     : int 10
+ $ inner_v     : int 10
+ $ grid_n      : int 12
+ $ boruta_runs : int 100
+ $ bootstrap_n : int 1000
+ $ shap_nsim   : int 64
+ $ shap_sample : int 300
+ $ workers     : int 4
+ $ resume      : logi TRUE
+ $ fast_test   : logi FALSE
+ $ dirs        :List of 6
+  ..$ results  : chr "results"
+  ..$ figures  : chr "results/figures"
+  ..$ tables   : chr "results/tables"
+  ..$ workbooks: chr "results/workbooks"
+  ..$ logs     : chr "results/logs"
+  ..$ private  : chr "private"

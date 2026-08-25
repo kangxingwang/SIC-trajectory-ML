@@ -1,0 +1,24 @@
+# Copy this file to .Renviron and replace the paths with your local files.
+# Never commit .Renviron because it may contain private paths.
+
+SIC_PROJECT_ROOT=.
+SIC_DATA_MIMICIV=C:/path/to/MIMICIV_merged.csv
+SIC_DATA_MIMICIII=C:/path/to/MIMICIII_merged.csv
+SIC_DATA_EICU=C:/path/to/eICU_merged.csv
+SIC_DATA_NWICU=C:/path/to/NWICU_merged.csv
+
+# Reproducibility and computing controls
+SIC_SEED=19971117
+SIC_OUTER_FOLDS=10
+SIC_INNER_FOLDS=10
+SIC_GRID_SIZE=12
+SIC_BORUTA_RUNS=100
+SIC_BOOTSTRAP_N=1000
+SIC_SHAP_NSIM=64
+SIC_SHAP_SAMPLE=300
+SIC_WORKERS=4
+
+# Set SIC_FAST_TEST=1 for a smoke test; use 0 for the manuscript analysis.
+SIC_FAST_TEST=0
+SIC_RESUME=true
+SIC_BUILD_WORKBOOKS=false

@@ -1,0 +1,6 @@
+SIC trajectory ML reproducibility report
+Generated: 2026-08-23 11:43:44 CST
+Locked model: XGBoost
+Final features: Plt_S, INR_S, SOFA_S, MAP, Na, SOFA, TBil, Cre, Temperature, GI_Infection
+Public files inventoried: 60
+Patient-level data and fitted model objects are restricted to private/ and ignored by Git.

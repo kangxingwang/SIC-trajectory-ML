@@ -1,0 +1,42 @@
+Package: SICtrajectoryML
+Type: Project
+Title: Transportable Machine Learning for SIC Trajectory Classification
+Version: 1.0.0
+Authors@R: person("SIC Trajectory", "Study Team", role = c("aut", "cre"), email = "replace-before-release@example.com")
+Description: Reproducible feature engineering, nested machine learning,
+    temporal and external validation, model evaluation, and SHAP interpretation
+    for classifying a persistently high SIC trajectory.
+License: file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.4.0)
+Imports:
+    Boruta,
+    data.table,
+    digest,
+    dplyr,
+    fastshap,
+    future,
+    ggplot2,
+    glmnet,
+    kknn,
+    kernlab,
+    patchwork,
+    pROC,
+    PRROC,
+    purrr,
+    ranger,
+    recipes,
+    rlang,
+    rsample,
+    scales,
+    shapviz,
+    tibble,
+    tidymodels,
+    tidyr,
+    tune,
+    viridis,
+    viridisLite,
+    shiny,
+    workflows,
+    xgboost,
+    yardstick
